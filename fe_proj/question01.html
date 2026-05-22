@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>情報セキュリティ運用 4択問題①</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="quiz-container">
+            <h3 class="quiz-question">問題1: 情報セキュリティポリシーの三層構造において、<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;「基本方針(基本ポリシー)」の説明として最も適切なものはどれか。</h3>
+
+            <form class="quiz-options">
+                <label>
+                    <input type="radio" name="q1" value="1" /> 1.利用者のパスワード文字数や変更頻度など、具体的な設定値を定めるもの。
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="2" /> 2.情報セキュリティに対する組織全体の考え方や目的を示すもの。
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="3" /> 3.サーバ障害時の復旧手順を時系列で記載したもの。
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="4" /> 4.システム管理者の日常点検の実施方法をまとめたもの。
+
+                </label>
+               
+				<button type="button" onclick="checkAnswer('q1', '2')">回答する</button>
+				
+            </form>
+
+            <details class="quiz-answer" id="answer-details">
+			    <summary>解答と解説を見る</summary>
+			    <div class="answer-content">
+			        <p class="correct-answer">
+			            <strong>正解：2. 情報セキュリティに対する組織全体の考え方や目的を示すもの。</strong>
+			        </p>
+			        <p class="explanation">
+			            <strong>解説：</strong><br />
+			            &nbsp;&nbsp;基本方針は三層構造の最上位に位置し、「なぜ情報セキュリティに取り組むのか」という組織全体の理念や方向性を示します。<br>
+			            &nbsp;&nbsp;一方、具体的なルールは「対策基準」、実際の操作方法や手順は「実施手順・ガイドライン」に分類されます。
+			        </p>
+			    </div>
+			</details>
+	
+    <br>
+	
+	<div class="menu-container">
+	    <ul class="nav-container">
+	        <li>
+	            <button type="button" onclick="location.href='index.html'">homeへ戻る</button>
+	        </li>
+
+	        <li>
+	            <button type="button" onclick="goToNextPage('question02.html')">次の問題へ</button>
+	        </li>
+	    </ul>
+	</div>
+		  
+        </div>
+            <script src="script.js"></script>
+
+    </body>
+</html>
