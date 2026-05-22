@@ -17,6 +17,9 @@ body {
     max-width: 600px;
     margin: 0 auto 24px auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    
+    border-top: 6px solid #fcd002;
+  border-bottom: 6px solid #fcd002;
 }
 
 /* 問題文 */
