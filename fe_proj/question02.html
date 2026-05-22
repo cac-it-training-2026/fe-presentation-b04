@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>情報セキュリティ運用 4択問題②</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="quiz-container">
+            <h3 class="quiz-question">問題2: 情報セキュリティポリシーにおける「策定」と「運用」の違いに関する記述として、適切なものはどれですか。</h3>
+
+            <form class="quiz-options">
+                <label>
+                    <input type="radio" name="q2" value="1" /> 1.「策定」は組織が存続する限り永続的に行われる活動であり、「運用」はポリシーの策定が完了するまでの一定期間に行われる活動である。
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="2" /> 2.ポリシーの実効性を高めるためには、「策定」を担当した部門と「運用」を担当する部門が互いに干渉しないよう完全に独立させるべきである。
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="3" /> 3.「策定」はリスク分析に基づきセキュリティの基準やルールを構築するフェーズであり、「運用」はそれを日々の業務で実行・維持するフェーズである。
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="4" /> 4.「策定」の主な目的は社員教育や日々のログ監視であり、「運用」の主な目的はポリシーの文書化である
+
+                </label>
+				<button type="button" onclick="checkAnswer('q2', '3')">回答する</button>
+
+            </form>
+
+			<details class="quiz-answer" id="answer-details">
+    <summary>解答と解説を見る</summary>
+    <div class="answer-content">
+        <p class="correct-answer">
+            <strong>正解：3. 「策定」はリスク分析に基づきセキュリティの基準やルールを構築するフェーズであり、「運用」はそれを日々の業務で実行・維持するフェーズである。</strong>
+        </p>
+        <p class="explanation">
+            <strong>解説：</strong><br />
+            策定は「ルールを作る（計画）」フェーズ、運用は「ルールを動かし維持する（実行・改善）」フェーズという本質的な違いを正しく説明しています。
+        </p>
+    </div>
+	</details>
+	
+	<div class="menu-container">
+	    <ul class="left-container">
+		  <button type="button" onclick="goToNextPage('question03.html')">次の問題へ</button>
+	    </ul>
+	</div>
+		  
+        </div>
+            <script src="script.js"></script>
+
+    </body>
+</html>

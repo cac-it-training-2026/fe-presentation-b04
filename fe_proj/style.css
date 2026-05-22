@@ -99,3 +99,21 @@ body {
     margin-bottom: 0;
     line-height: 1.6;
 }
+
+/*追加*/
+.nav-container {
+  display: flex;               /* 横並びにする */
+  justify-content: space-between; /* 両端に広げて配置する */
+  list-style: none;            /* リストの「・」を消す */
+  padding: 0;                  /* 余計な隙間を消す */
+  margin: 0;                   /* 余計な隙間を消す */
+}
+
+.left-container {
+  display: flex;
+  justify-content: flex-end; /* 👈 これで中身がすべて右端に寄ります */
+  list-style: none;          /* 箇条書きの点を消す */
+  padding: 0;
+  margin: 0;
+  gap: 10px;                 /* ボタンが複数ある場合のすき間 */
+}
